@@ -2,12 +2,43 @@
 <title>
   Home
 </title>
+<style>
+.links
+{
+  color: red;
+}
+body
+{
+  background-color: lightblue;
+}
+.menu
+{
+  background-color: pink;
+}
+.footerkim
+{
+  background-image: url("pyin-hpyu-gyi-myanmar.jpg");
+}
+.urmom
+{
+  background-image: url("bg.jpg");
+}
+.vape
+{
+  background-image: url("bg.jpg");
+}
+.mainTable
+{
+  height: auto; width: 800px; border-style: ridge;
+    border-width: 4px;
+}
+</style>
 </head>
 <body>
 
 <div align="center">
-<table border="3" height="300" width="800">
-  <tr height="50">
+<table class="mainTable">
+  <tr class= "menu" height="50">
     <td>
     <div align="center">
       Home
@@ -15,7 +46,7 @@
     </td>
 
     <td>
-      <a href="news.html">
+      <a class="links" href="news.html">
       <div align="center">
       News
     </div>
@@ -36,10 +67,9 @@
     </div>
     </a>
     </td>
+</tr>
 
-  </tr>
-
-  <tr>
+  <tr class="vape">
     <td colspan="4">
       <table>
       <tr>
@@ -49,8 +79,8 @@
 
         <td width="200">
           <table border="3">
-            <tr>
-              <td height="5">
+            <tr  >
+              <td class="urmom" height="5">
                 Hello my name is mark
               </td>
             </tr>
@@ -71,7 +101,7 @@
     </td>
   </tr>
 
-  <tr height="50">
+  <tr class="footerkim" height="50">
     <td colspan="4" align="center">
       Designed by kim jong un
     </td>
