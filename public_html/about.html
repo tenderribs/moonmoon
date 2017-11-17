@@ -1,9 +1,11 @@
 <html>
 <title>
-  About
+Contact
 </title>
 
 <head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
 .menuFont{
   font-family: sans-serif;
@@ -36,45 +38,62 @@ li a:hover:not(.active) {
 .active {
     background-color: #4CAF50;
 }
-.title{
+.Title{
   font-family: Tahoma;
-  font-weight: normal;
   margin: auto;
   width: 50%;
-  font-size: 22px;
+  font-weight: bold;
+  font-size: 24;
 }
-.paragraph{
+.iconText{
   font-family: Tahoma;
-   text-align: center;
+}
+.snapcode{
+  width: 200px;
+  height:200px;
+}
+.Links{
+  font-family: Tahoma;
+  margin: auto;
+  width: 50%;
+  font-style: italic;
 }
 </style>
 </head>
-
+<!-- menu bar -->
 <body>
-  <!-- menu bar -->
+  <br>
   <ul class="menuFont">
     <li><a href="index.html">Home</a></li>
     <li><a href="videos.html">Videos</a></li>
     <li><a href="contact.html">Contact</a></li>
     <li><a class="active" href="about.html">About</a></li>
   </ul>
-  <br>
-  <!-- title -->
-<center>
-<h class="title">What is this page about?</h>
 
-<p class="paragraph">
-  - This page is all about sharing my photos online.
-</p>
-<p class="paragraph">
-  - I use my drone to make short videos
-</p>
-<p class="paragraph">
-  - I also use it to take pictures
-</p>
-<p class="paragraph">
-  - I only do this in my free time, I still am in school
-</p>
-</center>
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h1 class="display-3">About me</h1>
+      <p class="lead">My name is Mark Marolf and I am 15 years old. I live in Baden, Switzerland and still go to school.</p>
+<p> In my free time I make videos with my drone. The content you see on this website was all made by me and is free to be used at your disposal. Be sure to check out my videos on my youtube channel and leave a like if you enjoyed!</p>
+<p> I made this website with the help of Majed Fayazi, my programming course teacher. Check out some of his websites here.</p>
+<div class="dropdown show">
+  <a class="btn btn-light dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    links
+  </a>
+
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+    <a class="dropdown-item" href="http://www.prine.ch/">His Company</a>
+    <a class="dropdown-item" href="http://www.pumpipumpe.ch/order-stickers/">Sharing website concept</a>
+    <a class="dropdown-item" href="http://cmh.majed.life/login#/">Majed.life</a>
+  </div>
+</div>
+    </div>
+  </div>
+
+<script src="https://unpkg.com/popper.js "></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
 </body>
+
 </html>

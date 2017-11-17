@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
 <title>
-  Gallery
+  Home
 </title>
 <head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
 <style>
 .content{
   margin-top: 20px;
@@ -61,112 +62,120 @@ div.container {
 </head>
 
 <body>
-
+<div class="sticky-top">
 <ul class="menuFont">
   <li><a class="active" href="index.html">Home</a></li>
   <li><a href="videos.html">Videos</a></li>
   <li><a href="contact.html">Contact</a></li>
   <li><a href="about.html">About</a></li>
 </ul>
-<center class="content">
-<div class="polaroid">
-  <img src="images\guspis.jpg" alt="Norway" style="width:100%">
-  <div class="container">
-    <p>Skiing in Andermatt</p>
+</div>
+<br>
+<!-- Carousel -->
+<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="images\DJI_0057-01.jpeg" alt="First slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="images\DJI_0072-01.jpeg" alt="Second slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="images\DSC04582-01.jpeg" alt="Third slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="images\org_b0557d3049a21675_1506856983000-01.jpeg" alt="Fourth slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="images\20171001_190913-01.jpeg" alt="Fifth slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="images\org_b0557d3049a21675_1506856983000-01.jpeg" alt="Sixth slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="images\org_fe4b24cf6b5703bc_1507689857000-01-01.jpeg" alt="Seventh slide">
+    </div>
+  </div>
+  <!-- Select slide -->
+  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+<br>
+<!-- Gallery -->
+<div class="float-left">
+<div class="card" style="width: 30rem;">
+  <img class="card-img-top" src="images\DJI_0009-02.jpeg" alt="Card image cap">
+  <div class="card-body">
+    <p class="card-text">The Anisaka Falls near Pyin Oo Lwin as seen from the DJI Mavic.</p>
   </div>
 </div>
-
-<div class="polaroid">
-  <img src="images\DJI_0009-02.jpeg" alt="Norway" style="width:100%">
-  <div class="container">
-    <p>Anisaka falls near Pyin oo Lwin</p>
-  </div>
 </div>
 
-<div class="polaroid">
-  <img src="images\DJI_0057-01.jpeg" alt="Norway" style="width:100%">
-  <div class="container">
-    <p>Boats on Inle lake</p>
+<div class="float-right">
+<div class="card" style="width: 30rem;">
+  <img class="card-img-top" src="images\DSC04574-01.jpeg" alt="Card image cap">
+  <div class="card-body">
+    <p class="card-text">Ancient temples and pagodas in the distance at Bagan, Myanmar.Taken near sunset.</p>
   </div>
 </div>
-
-<div class="polaroid">
-  <img src="images\DJI_0072-01.jpeg" alt="Norway" style="width:100%">
-  <div class="container">
-    <p>Tomato fields on Inle lake</p>
-  </div>
 </div>
 
-<div class="polaroid">
-  <img src="images\org_b0557d3049a21675_1506856983000-01.jpeg" alt="Norway" style="width:100%">
-  <div class="container">
-    <p>The Ubein bridge near Amarapura</p>
+<div class="mx-auto">
+<div class="card" style="width: 30rem;">
+  <img class="card-img-top" src="images\DJI_0057-01.jpeg" alt="Card image cap">
+  <div class="card-body">
+    <p class="card-text">Long Boats used for tourism and fishing between Nyaung Shwe and Inle lake, Myanmar.</p>
   </div>
 </div>
-
-<div class="polaroid">
-  <img src="images\DSC04582-01.jpeg" alt="Norway" style="width:100%">
-  <div class="container">
-    <p>Pagodas in Bagan</p>
-  </div>
-</div>
-
-<div class="polaroid">
-  <img src="images\DSC04574-01.jpeg" alt="Norway" style="width:100%">
-  <div class="container">
-    <p>More Pagodas in Bagan</p>
-  </div>
-</div>
-
-<div class="polaroid">
-  <img src="images\DJI_0043-01.jpeg" alt="Norway" style="width:100%">
-  <div class="container">
-    <p>Central plains near Old Bagan</p>
-  </div>
-</div>
-
-<div class="polaroid">
-  <img src="images\20171014_105809-01.jpeg" alt="Norway" style="width:100%">
-  <div class="container">
-    <p>Downtown Bangkok shot on the Galaxy S8</p>
-  </div>
-</div>
-
-<div class="polaroid">
-  <img src="images\20171015_125429.jpg" alt="Norway" style="width:100%">
-  <div class="container">
-    <p>Bangkok shot on the Galaxy S8</p>
-  </div>
-</div>
-
-<div class="polaroid">
-  <img src="images\20171001_174627.jpg" alt="Norway" style="width:100%">
-  <div class="container">
-    <p>Sunset at Ubein Bridge shot on the Galaxy S8</p>
-  </div>
-</div>
-
-<div class="polaroid">
-  <img src="images\20171014_095734.jpg" alt="Norway" style="width:100%">
-  <div class="container">
-    <p>Downtown Bangkok shot on the Galaxy S8</p>
-  </div>
 </div>
 
 
-<div class="polaroid">
-  <img src="images\20171001_190913-01.jpeg" alt="Norway" style="width:100%">
-  <div class="container">
-    <p>Sunset over Amarapura</p>
+
+<div class="float-left">
+<div class="card" style="width: 30rem;">
+  <img class="card-img-top" src="images\20171001_190913-01.jpeg" alt="Card image cap">
+  <div class="card-body">
+    <p class="card-text">Sunset over Ubein Bridge in Amarapura, Myanmar. Facing the Ayerawaddy river.</p>
+  </div>
+</div>
+</div>
+
+<div class="float-right">
+<div class="card" style="width: 30rem;">
+  <img class="card-img-top" src="images\org_fe4b24cf6b5703bc_1507689857000-01-01.jpeg" alt="Card image cap">
+  <div class="card-body">
+    <p class="card-text">The Anisaka Falls near Pyin Oo Lwin in Myanmar as seen from the Mavic.</p>
+  </div>
+</div>
+</div>
+
+<div class="mx-auto">
+<div class="card" style="width: 30rem;">
+  <img class="card-img-top" src="images\org_b0557d3049a21675_1506856983000-01.jpeg" alt="Card image cap">
+  <div class="card-body">
+    <p class="card-text">Ubein bridge, the longest bridge built completely out of teak wood, Myanmar.</p>
   </div>
 </div>
 
-<div class="polaroid">
-  <img src="images\DJI_0045.jpg" alt="Norway" style="width:100%">
-  <div class="container">
-    <p>Rütihof</p>
-  </div>
-</div>
-</center>
+<script src="https://unpkg.com/popper.js "></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
 </body>
 </html>
